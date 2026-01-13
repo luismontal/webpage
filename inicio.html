@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi página personal</title>
+  <meta name="description" content="Página web personal" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#">Luis Montal de Grandes</a>
+
+      <nav class="nav">
+        <a href="#sobre-mi">About me</a>
+        <a href="#publicaciones">Research</a>
+        <a href="#docencia">CV</a>
+        <a href="#">Other</a>
+        <a href="#contacto">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Luis Montal</h1>
+      <p>Research Assistant at IESE Business School.</p>
+      <img src="C:\Users\Luis\Documents\PHD DOCS\foto.jpg" alt="Description of the photo" style="width: 300px; height: auto;">
+      <div class="actions">
+        <a class="button" href="cv.pdf" target="_blank" rel="noopener">Ver CV</a>
+        <a class="button button-secondary" href="#contacto">Contact</a>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="section">
+      <h2>About me</h2>
+      <p>
+        I'm fascinated by Marketing research, specially topics related to sustainable consumption.
+      </p>
+    </section>
+
+    <section id="publicaciones" class="section">
+      <h2>Publications</h2>
+      <ul class="list">
+        <li>
+          <strong>Apellido, N.</strong> (2026). Título del artículo. <em>Revista</em>.
+          <a href="#" target="_blank" rel="noopener">PDF</a>
+        </li>
+        <li>
+          <strong>Apellido, N.</strong> (2025). Otro artículo. <em>Conferencia</em>.
+          <a href="#" target="_blank" rel="noopener">DOI</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="docencia" class="section">
+      <h2>Conferences</h2>
+      <ul class="list">
+        <li>Curso 1 — Universidad X (2025–2026)</li>
+        <li>Curso 2 — Universidad X (2024–2025)</li>
+      </ul>
+    </section>
+
+    <section id="contacto" class="section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:lmontal@iese.edu">lmontal@iese.edu</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Luis Montal de Grandes</small>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="app.js"></script>
+</body>
+</html>
